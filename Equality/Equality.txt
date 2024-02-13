@@ -1,0 +1,67 @@
+
+Bitwise operators manipulate individual bits of binary numbers. They are often used in low-level programming and optimizations. Here are the basic bitwise operators:
+
+1. AND (`&`):
+   - The AND operator (`&`) compares each bit of two numbers. If both bits are 1, the result is 1; otherwise, it's 0.
+   - Example:
+
+     ```java
+     int a = 5; // Binary: 0101
+     int b = 3; // Binary: 0011
+
+     int result = a & b; // Binary: 0001 (1 in decimal)
+     ```
+
+2. OR (`|`):
+   - The OR operator (`|`) compares each bit of two numbers. If at least one bit is 1, the result is 1; otherwise, it's 0.
+   - Example:
+
+     ```java
+     int a = 5; // Binary: 0101
+     int b = 3; // Binary: 0011
+
+     int result = a | b; // Binary: 0111 (7 in decimal)
+     ```
+
+3. XOR (`^`):
+   - The XOR operator (`^`) compares each bit of two numbers. If the bits are different, the result is 1; otherwise, it's 0.
+   - Example:
+
+     ```java
+     int a = 5; // Binary: 0101
+     int b = 3; // Binary: 0011
+
+     int result = a ^ b; // Binary: 0110 (6 in decimal)
+     ```
+
+4. NOT (`~`):
+   - The NOT operator (`~`) inverts each bit of a number, turning 0s into 1s and 1s into 0s.
+   - Example:
+
+     ```java
+     int a = 5; // Binary: 0101
+
+     int result = ~a; // Binary: 1010 (-6 in decimal due to two's complement representation)
+     ```
+
+5. Left Shift (`<<`):
+   - The left shift operator (`<<`) shifts the bits of a number to the left by a specified number of positions.
+   - Example:
+
+     ```java
+     int a = 5; // Binary: 0101
+
+     int result = a << 1; // Binary: 1010 (10 in decimal)
+     ```
+
+6. Right Shift (`>>`):
+   - The right shift operator (`>>`) shifts the bits of a number to the right by a specified number of positions.
+   - Example:
+
+     ```java
+     int a = 5; // Binary: 0101
+
+     int result = a >> 1; // Binary: 0010 (2 in decimal)
+     ```
+
+These operators are used for bitwise operations at the level of individual bits. While they may seem low-level, they have important applications, especially in scenarios where efficiency and performance are crucial.
