@@ -1,7 +1,3 @@
-### Repository Name: CodeCraft
-
-### README.md
-
 # CodeCraft: Crafting Code for Learning Java 🛠️💻
 
 Welcome to CodeCraft - your ultimate resource hub for mastering Java programming! 🚀
